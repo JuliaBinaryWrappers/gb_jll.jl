@@ -1,0 +1,99 @@
+[[gb]]
+arch = "aarch64"
+git-tree-sha1 = "f6f7224536ce888867e8689b169e590e9e4f63c9"
+libc = "glibc"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "3451357ae0179106653c8333a349dde4de9bf87f39da62392dc4a76351d09e9a"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.aarch64-linux-gnu.tar.gz"
+[[gb]]
+arch = "aarch64"
+git-tree-sha1 = "55eac3edb5759e42cac509b8f370c98ec14af2e7"
+libc = "musl"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "043d9ff87cae8b55154335971341cd1b1a47d28e12b31c8d9fe03be4582995fc"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.aarch64-linux-musl.tar.gz"
+[[gb]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "75ba89de00f001d6526678ccfa6d932a5f2f14e0"
+libc = "glibc"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "b040b8f6bb945d3772e790d94c1f873d380c73c08b43608a3922e1ce90e51b22"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.armv7l-linux-gnueabihf.tar.gz"
+[[gb]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "68d38d389a171d1366633e2179a31645d28e5c1f"
+libc = "musl"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "97bcdf8c935a1c70ff4f54d0ed5d7c9dfd39777dca67bb6d5d7fae49afcab39d"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.armv7l-linux-musleabihf.tar.gz"
+[[gb]]
+arch = "i686"
+git-tree-sha1 = "5d92d4206c868a66924bae182181ada77d0f8793"
+libc = "glibc"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "a2284a96ac91e375c3c64b7390df230e5e0a1cfa293d8eb26eb5a9949c0b3480"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.i686-linux-gnu.tar.gz"
+[[gb]]
+arch = "i686"
+git-tree-sha1 = "b6bdf2808a092b2223d91ab7a9d405c2cf4836f3"
+libc = "musl"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "8ca0ffb63cc343a741157df2254f6fd3eea472c6c51c2dbb3031f7e5fd9d6441"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.i686-linux-musl.tar.gz"
+[[gb]]
+arch = "powerpc64le"
+git-tree-sha1 = "c15caccd894fdc7e100f8052acbc88531dd054c4"
+libc = "glibc"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "5954a2cd70eaa84bfeb690a139487c4d63346a74ab40cda0b195c7fe3abbdeb3"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.powerpc64le-linux-gnu.tar.gz"
+[[gb]]
+arch = "x86_64"
+git-tree-sha1 = "d5fcb6d06122e4e44e772c3b88f808dff6b8f97c"
+os = "macos"
+
+    [[gb.download]]
+    sha256 = "5ce492fa3fc03a9b60df72989acb27c71ff6a4a0ca0b50fda73535e936f5e925"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.x86_64-apple-darwin.tar.gz"
+[[gb]]
+arch = "x86_64"
+git-tree-sha1 = "909af0ae626987db33c4f233ed13ebd59ad6520d"
+libc = "glibc"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "9a9de95039684ff48ebc47c391d2e699bc692340f3a142d78d6da057a55ef2e1"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.x86_64-linux-gnu.tar.gz"
+[[gb]]
+arch = "x86_64"
+git-tree-sha1 = "b6958947ecf32852cd5eed324acad65184c31895"
+libc = "musl"
+os = "linux"
+
+    [[gb.download]]
+    sha256 = "9592cb042747dc2ce8c60dfc9af6719e51a7e176283921fedfd8dd531572cd3a"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.x86_64-linux-musl.tar.gz"
+[[gb]]
+arch = "x86_64"
+git-tree-sha1 = "2caaa5f9a8e2bb5ba71b13f7fb4f9e1f5c955f3e"
+os = "freebsd"
+
+    [[gb.download]]
+    sha256 = "47eb2fa848c29f271fbc13f4d22c33b16720b4f3f48f6cefdd31dfc582c0b753"
+    url = "https://github.com/JuliaBinaryWrappers/gb_jll.jl/releases/download/gb-v0.17.0+0/gb.v0.17.0.x86_64-unknown-freebsd.tar.gz"
